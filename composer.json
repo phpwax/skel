@@ -1,0 +1,25 @@
+{
+    "name": "phpwax/skel",
+    "description": "Skeleton for starting a PHP-Wax ap",
+    "authors": [
+        {
+            "name": "Ross Riley",
+            "email": "riley.ross@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.4.0",
+      "phpwax/core":              "1.0.x-dev",
+      "phpwax/model":             "1.0.x-dev",
+      "phpwax/db":                "1.0.x-dev",
+      "phpwax/controller":        "1.0.x-dev",
+      "phpwax/template":          "1.0.x-dev",
+      "doctrine/orm":             "*"
+    },
+    
+    "autoload": {
+      "psr-0": {"MyApp": "."}
+    },
+      
+    "minimum-stability": "dev"
+}
